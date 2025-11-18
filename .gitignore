@@ -1,0 +1,6 @@
+# OCR Results and Temporary Files
+pdf_analysis/
+ocr_results/
+__pycache__/
+*.pyc
+.pytest_cache/
