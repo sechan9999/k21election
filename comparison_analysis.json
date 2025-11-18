@@ -1,0 +1,501 @@
+{
+  "pages": [
+    {
+      "page": 2,
+      "type": "관외투표",
+      "candidates": {
+        "C1_이재명": {
+          "machine_②": 1227,
+          "machine_③": 0,
+          "human_a": 1227,
+          "human_b": 13,
+          "match": false
+        },
+        "C2_김문수": {
+          "machine_②": 375,
+          "machine_③": 0,
+          "human_a": 375,
+          "human_b": 0,
+          "match": true
+        },
+        "C4_이준석": {
+          "machine_②": 209,
+          "machine_③": 39,
+          "human_a": 209,
+          "human_b": 39,
+          "match": true
+        },
+        "C5_권영국": {
+          "machine_②": 44,
+          "machine_③": 0,
+          "human_a": 44,
+          "human_b": 1,
+          "match": false
+        },
+        "C8_송진호": {
+          "machine_②": 1,
+          "machine_③": 0,
+          "human_a": 1,
+          "human_b": 1,
+          "match": false
+        }
+      },
+      "overall_match": false
+    },
+    {
+      "page": 3,
+      "type": "관내사전",
+      "candidates": {
+        "C1_이재명": {
+          "machine_②": 19900,
+          "machine_③": 0,
+          "human_a": 19900,
+          "human_b": 452,
+          "match": false
+        },
+        "C2_김문수": {
+          "machine_②": 7679,
+          "machine_③": 0,
+          "human_a": 7679,
+          "human_b": 280,
+          "match": false
+        },
+        "C4_이준석": {
+          "machine_②": 4520,
+          "machine_③": 0,
+          "human_a": 4520,
+          "human_b": 128,
+          "match": false
+        },
+        "C5_권영국": {
+          "machine_②": 354,
+          "machine_③": 0,
+          "human_a": 354,
+          "human_b": 9,
+          "match": false
+        },
+        "C8_송진호": {
+          "machine_②": 37,
+          "machine_③": 0,
+          "human_a": 37,
+          "human_b": 5,
+          "match": false
+        }
+      },
+      "overall_match": false,
+      "note": "재확인 대상이 많음 - 1,182개 중 (b)에서 추가 발견"
+    },
+    {
+      "page": 4,
+      "type": "1투표함",
+      "candidates": {
+        "C1_이재명": {
+          "machine_②": 1862,
+          "machine_③": 123,
+          "human_a": 1862,
+          "human_b": 49,
+          "match": false
+        },
+        "C2_김문수": {
+          "machine_②": 624,
+          "machine_③": 43,
+          "human_a": 624,
+          "human_b": 14,
+          "match": false
+        },
+        "C4_이준석": {
+          "machine_②": 362,
+          "machine_③": 0,
+          "human_a": 362,
+          "human_b": 14,
+          "match": false
+        },
+        "C5_권영국": {
+          "machine_②": 25,
+          "machine_③": 0,
+          "human_a": 25,
+          "human_b": 1,
+          "match": false
+        },
+        "C8_송진호": {
+          "machine_②": 4,
+          "machine_③": 0,
+          "human_a": 4,
+          "human_b": 1,
+          "match": false
+        }
+      },
+      "overall_match": false,
+      "note": "기계 재확인(③)과 인간 재확인(b)이 상당히 다름"
+    },
+    {
+      "page": 6,
+      "type": "3투표함",
+      "candidates": {
+        "C1_이재명": {
+          "machine_②": 1873,
+          "machine_③": 83,
+          "human_a": 1873,
+          "human_b": 25,
+          "match": false
+        },
+        "C2_김문수": {
+          "machine_②": 610,
+          "machine_③": 19,
+          "human_a": 610,
+          "human_b": 14,
+          "match": false
+        },
+        "C4_이준석": {
+          "machine_②": 402,
+          "machine_③": 0,
+          "human_a": 402,
+          "human_b": 12,
+          "match": false
+        },
+        "C5_권영국": {
+          "machine_②": 28,
+          "machine_③": 0,
+          "human_a": 28,
+          "human_b": 0,
+          "match": true
+        },
+        "C8_송진호": {
+          "machine_②": 4,
+          "machine_③": 0,
+          "human_a": 4,
+          "human_b": 0,
+          "match": true
+        }
+      },
+      "overall_match": false
+    },
+    {
+      "page": 10,
+      "type": "7투표함",
+      "candidates": {
+        "C1_이재명": {
+          "machine_②": 1649,
+          "machine_③": 111,
+          "human_a": 1649,
+          "human_b": 43,
+          "match": false
+        },
+        "C2_김문수": {
+          "machine_②": 787,
+          "machine_③": 5,
+          "human_a": 787,
+          "human_b": 29,
+          "match": false
+        },
+        "C4_이준석": {
+          "machine_②": 428,
+          "machine_③": 0,
+          "human_a": 428,
+          "human_b": 11,
+          "match": false
+        },
+        "C5_권영국": {
+          "machine_②": 22,
+          "machine_③": 0,
+          "human_a": 22,
+          "human_b": 0,
+          "match": true
+        },
+        "C8_송진호": {
+          "machine_②": 3,
+          "machine_③": 0,
+          "human_a": 3,
+          "human_b": 0,
+          "match": true
+        }
+      },
+      "overall_match": false
+    },
+    {
+      "page": 20,
+      "type": "관내",
+      "candidates": {
+        "C1_이재명": {
+          "machine_②": 1167,
+          "machine_③": 68,
+          "human_a": 1167,
+          "human_b": 24,
+          "match": false
+        },
+        "C2_김문수": {
+          "machine_②": 586,
+          "machine_③": 1,
+          "human_a": 586,
+          "human_b": 22,
+          "match": false
+        },
+        "C4_이준석": {
+          "machine_②": 186,
+          "machine_③": 0,
+          "human_a": 186,
+          "human_b": 1,
+          "match": false
+        },
+        "C5_권영국": {
+          "machine_②": 14,
+          "machine_③": 0,
+          "human_a": 14,
+          "human_b": 0,
+          "match": true
+        },
+        "C8_송진호": {
+          "machine_②": 2,
+          "machine_③": 0,
+          "human_a": 2,
+          "human_b": 1,
+          "match": false
+        }
+      },
+      "overall_match": false
+    },
+    {
+      "page": 30,
+      "type": "교촌동",
+      "candidates": {
+        "C1_이재명": {
+          "machine_②": 4286,
+          "machine_③": 92,
+          "human_a": 4286,
+          "human_b": 49,
+          "match": false
+        },
+        "C2_김문수": {
+          "machine_②": 980,
+          "machine_③": 0,
+          "human_a": 980,
+          "human_b": 13,
+          "match": false
+        },
+        "C4_이준석": {
+          "machine_②": 387,
+          "machine_③": 0,
+          "human_a": 387,
+          "human_b": 6,
+          "match": false
+        },
+        "C5_권영국": {
+          "machine_②": 56,
+          "machine_③": 0,
+          "human_a": 56,
+          "human_b": 0,
+          "match": true
+        },
+        "C8_송진호": {
+          "machine_②": 1,
+          "machine_③": 0,
+          "human_a": 1,
+          "human_b": 0,
+          "match": true
+        }
+      },
+      "overall_match": false
+    },
+    {
+      "page": 40,
+      "type": "초전동/관내1투",
+      "candidates": {
+        "C1_이재명": {
+          "machine_②": 359,
+          "machine_③": 36,
+          "human_a": 359,
+          "human_b": 8,
+          "match": false
+        },
+        "C2_김문수": {
+          "machine_②": 621,
+          "machine_③": 0,
+          "human_a": 621,
+          "human_b": 14,
+          "match": false
+        },
+        "C4_이준석": {
+          "machine_②": 66,
+          "machine_③": 0,
+          "human_a": 66,
+          "human_b": 3,
+          "match": false
+        },
+        "C5_권영국": {
+          "machine_②": 4,
+          "machine_③": 0,
+          "human_a": 4,
+          "human_b": 1,
+          "match": false
+        },
+        "C8_송진호": {
+          "machine_②": 1,
+          "machine_③": 0,
+          "human_a": 1,
+          "human_b": 0,
+          "match": true
+        }
+      },
+      "overall_match": false
+    },
+    {
+      "page": 60,
+      "type": "장군면/제1투",
+      "candidates": {
+        "C1_이재명": {
+          "machine_②": 283,
+          "machine_③": 44,
+          "human_a": 283,
+          "human_b": 10,
+          "match": false
+        },
+        "C2_김문수": {
+          "machine_②": 490,
+          "machine_③": 0,
+          "human_a": 490,
+          "human_b": 32,
+          "match": false
+        },
+        "C4_이준석": {
+          "machine_②": 69,
+          "machine_③": 0,
+          "human_a": 69,
+          "human_b": 2,
+          "match": false
+        },
+        "C5_권영국": {
+          "machine_②": 6,
+          "machine_③": 0,
+          "human_a": 6,
+          "human_b": 0,
+          "match": true
+        },
+        "C8_송진호": {
+          "machine_②": 0,
+          "machine_③": 0,
+          "human_a": 0,
+          "human_b": 0,
+          "match": true
+        }
+      },
+      "overall_match": false
+    },
+    {
+      "page": 70,
+      "type": "장동면/제1투",
+      "candidates": {
+        "C1_이재명": {
+          "machine_②": 147,
+          "machine_③": 24,
+          "human_a": 147,
+          "human_b": 6,
+          "match": false
+        },
+        "C2_김문수": {
+          "machine_②": 303,
+          "machine_③": 0,
+          "human_a": 303,
+          "human_b": 13,
+          "match": false
+        },
+        "C4_이준석": {
+          "machine_②": 26,
+          "machine_③": 0,
+          "human_a": 26,
+          "human_b": 1,
+          "match": false
+        },
+        "C5_권영국": {
+          "machine_②": 1,
+          "machine_③": 0,
+          "human_a": 1,
+          "human_b": 0,
+          "match": true
+        },
+        "C8_송진호": {
+          "machine_②": 0,
+          "machine_③": 0,
+          "human_a": 0,
+          "human_b": 0,
+          "match": true
+        }
+      },
+      "overall_match": false
+    }
+  ],
+  "analysis": {
+    "total_pages_analyzed": 10,
+    "pages_100_match": 0,
+    "pages_with_discrepancy": 10,
+    "overall_match_rate": 0.0,
+    "candidate_stats": {
+      "C1_이재명": {
+        "matches": 0,
+        "total": 10,
+        "match_rate": 0.0
+      },
+      "C2_김문수": {
+        "matches": 1,
+        "total": 10,
+        "match_rate": 10.0
+      },
+      "C4_이준석": {
+        "matches": 1,
+        "total": 10,
+        "match_rate": 10.0
+      },
+      "C5_권영국": {
+        "matches": 6,
+        "total": 10,
+        "match_rate": 60.0
+      },
+      "C8_송진호": {
+        "matches": 6,
+        "total": 10,
+        "match_rate": 60.0
+      }
+    },
+    "type_stats": {
+      "관외투표": {
+        "pages": 1,
+        "matches": 0
+      },
+      "관내사전": {
+        "pages": 1,
+        "matches": 0
+      },
+      "1투표함": {
+        "pages": 1,
+        "matches": 0
+      },
+      "3투표함": {
+        "pages": 1,
+        "matches": 0
+      },
+      "7투표함": {
+        "pages": 1,
+        "matches": 0
+      },
+      "관내": {
+        "pages": 1,
+        "matches": 0
+      },
+      "교촌동": {
+        "pages": 1,
+        "matches": 0
+      },
+      "초전동/관내1투": {
+        "pages": 1,
+        "matches": 0
+      },
+      "장군면/제1투": {
+        "pages": 1,
+        "matches": 0
+      },
+      "장동면/제1투": {
+        "pages": 1,
+        "matches": 0
+      }
+    }
+  }
+}
