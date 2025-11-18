@@ -1,0 +1,66 @@
+{
+  "page_number": 0,
+  "voting_type": "",
+  "ballot_box": "",
+  "machine_classification": {
+    "candidate_1_lee_jae_myung": {
+      "machine_classified": 0,
+      "machine_reconfirm": 0
+    },
+    "candidate_2_kim_moon_soo": {
+      "machine_classified": 0,
+      "machine_reconfirm": 0
+    },
+    "candidate_4_lee_jun_seok": {
+      "machine_classified": 0,
+      "machine_reconfirm": 0
+    },
+    "candidate_5_kwon_young_kook": {
+      "machine_classified": 0,
+      "machine_reconfirm": 0
+    },
+    "candidate_8_song_jin_ho": {
+      "machine_classified": 0,
+      "machine_reconfirm": 0
+    },
+    "invalid_votes": {
+      "machine_classified": 0,
+      "machine_reconfirm": 0
+    }
+  },
+  "human_verification": {
+    "candidate_1_lee_jae_myung": {
+      "verified_a": 0,
+      "verified_b": 0
+    },
+    "candidate_2_kim_moon_soo": {
+      "verified_a": 0,
+      "verified_b": 0
+    },
+    "candidate_4_lee_jun_seok": {
+      "verified_a": 0,
+      "verified_b": 0
+    },
+    "candidate_5_kwon_young_kook": {
+      "verified_a": 0,
+      "verified_b": 0
+    },
+    "candidate_8_song_jin_ho": {
+      "verified_a": 0,
+      "verified_b": 0
+    },
+    "invalid_votes": {
+      "verified_a": 0,
+      "verified_b": 0
+    }
+  },
+  "match_status": {
+    "candidate_1": false,
+    "candidate_2": false,
+    "candidate_4": false,
+    "candidate_5": false,
+    "candidate_8": false,
+    "invalid": false,
+    "overall_match": false
+  }
+}
