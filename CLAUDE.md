@@ -368,20 +368,136 @@ AI 분석: Claude Sonnet 4.5 (Anthropic)
 - ✅ CLAUDE.md 업데이트
 - ✅ 프로젝트 인프라 추가
 
-### v1.3 (2025-11-18 - Current)
+### v1.3 (2025-11-18)
 - ✅ files (4).zip 압축 해제
 - ✅ 전체 문서 패키지 추가 (10개 파일)
 - ✅ 최종 커밋 및 푸시 준비
 - ✅ CLAUDE.md 최종 업데이트
 
+### v1.4 (2025-11-18 - Current) 🆕
+**주요 작업: 기계 분류 vs 인간 검증 일치율 분석**
+
+#### 1. PDF 전체 페이지 이미지 추출
+- ✅ sejong.pdf (126페이지) GitHub에서 다운로드
+- ✅ PyMuPDF로 126페이지 전체 PNG 변환 (150 DPI)
+- ✅ pdf_pages_all/ 디렉토리에 126개 이미지 저장 (35MB)
+- ✅ 각 페이지 구조 확인 및 데이터 추출 가능성 검토
+
+#### 2. 기계 vs 인간 검증 일치율 분석
+**분석 대상**: 14개 대표 샘플 페이지 수동 검토
+
+**핵심 발견**:
+- ❌ **100% 일치 페이지: 0개** (전체 14개 중)
+- ✅ 기계 분류(②) = 인간 확인(a): 거의 항상 일치
+- ❌ 기계 재확인(③) ≠ 인간 재확인(b): 거의 항상 불일치
+
+**후보자별 일치율**:
+- 이재명 (C1): 0.0% (0/14)
+- 김문수 (C2): 7.1% (1/14)
+- 이준석 (C4): 7.1% (1/14)
+- 권영국 (C5): 50.0% (7/14)
+- 송진호 (C8): 50.0% (7/14)
+
+**검토한 페이지**:
+- Page 2: 관외투표
+- Page 3: 관내사전 (33,676 투표지)
+- Pages 4-10: 투표함 1-7
+- Pages 20-120: 동별 선거일 투표 (관내, 교촌동, 초전동, 장군면, 장동면, 종촌동, 소담동, 반곡동)
+
+#### 3. 투표 결과 집계표 생성
+**14개 샘플 페이지 합계**:
+- 이재명: 37,936표 (a: 37,180 / b: 756)
+- 김문수: 16,177표 (a: 15,689 / b: 488)
+- 이준석: 7,785표 (a: 7,545 / b: 240)
+- 권영국: 661표 (a: 647 / b: 14)
+- 송진호: 67표 (a: 59 / b: 8)
+- 무효표: 513표 (a: 0 / b: 513)
+- **총계: 63,139표**
+
+#### 4. 시각화 차트 생성 (4개)
+1. **candidate_match_rates.png** (140KB)
+   - 후보자별 일치율 막대그래프
+   - 권영국/송진호 50%, 주요 후보 0-7%
+
+2. **voting_type_analysis.png** (209KB)
+   - 투표 유형 분포 및 일치 상태
+   - 파이 차트로 전체 일치율 표시
+
+3. **mismatch_pattern_c1.png** (194KB)
+   - 이재명 후보의 불일치 패턴
+   - 기계(③) vs 인간(b) 비교
+
+4. **match_status_heatmap.png** (172KB)
+   - 전체 일치 상태 히트맵
+   - 14페이지 × 5후보 매트릭스
+
+#### 5. 생성된 파일 목록
+**분석 보고서**:
+- `FINAL_CLASSIFICATION_MATCH_REPORT.md` (8.7KB)
+  - 종합 분석 보고서 (요약, 상세 분석, 결론)
+
+**데이터 파일**:
+- `comparison_analysis.json` (12KB)
+  - 14개 페이지 상세 비교 데이터
+- `candidate_summary.csv` (259B)
+  - 후보자별 집계표
+- `voting_location_details.csv` (1.3KB)
+  - 투표소별 상세 결과
+
+**Python 스크립트** (9개):
+- `test_pdf_extraction.py`: PDF 텍스트 추출 테스트
+- `extract_pdf_images.py`: PDF→이미지 변환 (샘플)
+- `extract_all_pages.py`: 전체 126페이지 추출
+- `batch_analyze_pages.py`: 배치 분석 계획
+- `comprehensive_analysis.py`: 종합 분석 계획
+- `manual_data_extraction.py`: 수동 추출 템플릿
+- `extract_sample_data.py`: 샘플 페이지 선정
+- `detailed_comparison_analysis.py`: 상세 비교 분석
+- `visualize_results.py`: 시각화 생성
+- `extract_voting_results.py`: 투표 결과 추출
+
+**템플릿 파일**:
+- `data_extraction_template.json` (1.5KB)
+- `manual_extraction.csv` (CSV 헤더)
+
+#### 6. Git 커밋 내역
+**Branch**: `claude/verify-classification-match-017hXM8Fr6Yy4RYsgzGXY4UF`
+
+- **Commit a68aa15**: Add machine vs human classification match analysis
+  - 분석 보고서, 스크립트, 시각화 차트
+
+- **Commit 71e288b**: Add .gitignore and data extraction templates
+  - .gitignore (대용량 파일 제외)
+  - 데이터 추출 템플릿
+
+- **Commit 22ec2aa**: Add voting results extraction and summary tables
+  - 투표 결과 집계표 (CSV)
+  - 추출 스크립트
+
+#### 7. 주요 인사이트
+**불일치의 패턴**:
+1. 관외/관내사전: 인간 재확인(b) > 기계 재확인(③)
+   - 수기 투표용지, OCR 어려움
+
+2. 투표함/선거일: 기계 재확인(③) > 인간 재확인(b)
+   - 기계 보수적 판단, 인간 명확히 판별
+
+3. 최종 집계는 정확: ②+③ = (a)+(b)
+   - 세부 분류는 다르지만 총계 일치
+
+**시사점**:
+- ✅ 이중 검증 시스템의 필요성 확인
+- ✅ 기계와 인간의 상호 보완적 역할
+- ✅ 최종 집계의 신뢰성 보장
+
 ---
 
-**작성자**: Claude (Anthropic AI)  
-**최초 작성**: 2025년 11월 17일  
-**최종 업데이트**: 2025년 11월 18일  
-**문서 버전**: 1.2  
-**Repository**: https://github.com/sechan9999/k21election  
-**상태**: 푸시 준비 완료 ✅
+**작성자**: Claude (Anthropic AI)
+**최초 작성**: 2025년 11월 17일
+**최종 업데이트**: 2025년 11월 18일
+**문서 버전**: 1.4
+**Repository**: https://github.com/sechan9999/k21election
+**상태**: 분석 완료 ✅
 
 ### 📦 Commit #2: Add project infrastructure
 - **Commit ID**: `84a52e0`
