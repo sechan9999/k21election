@@ -1171,8 +1171,462 @@ def get_all_voting_results():
             "invalid_a": 0, "invalid_b": 5
         },
 
-        # TO BE CONTINUED with Pages 91-126...
-        # 계속해서 나머지 페이지 추가 필요
+        # Page 91: 종촌동제1투
+        {
+            "page": 91,
+            "voting_location": "종촌동제1투",
+            "type": "Jongchon-dong Precinct 1",
+            "C1_a": 697, "C1_b": 11,
+            "C2_a": 753, "C2_b": 23,
+            "C4_a": 150, "C4_b": 2,
+            "C5_a": 17, "C5_b": 0,
+            "C8_a": 1, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 7
+        },
+
+        # Page 92: 종촌동제2투
+        {
+            "page": 92,
+            "voting_location": "종촌동제2투",
+            "type": "Jongchon-dong Precinct 2",
+            "C1_a": 406, "C1_b": 14,
+            "C2_a": 532, "C2_b": 17,
+            "C4_a": 97, "C4_b": 3,
+            "C5_a": 17, "C5_b": 0,
+            "C8_a": 2, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 10
+        },
+
+        # Page 93: 고운동제1투
+        {
+            "page": 93,
+            "voting_location": "고운동제1투",
+            "type": "Goun-dong Precinct 1",
+            "C1_a": 1215, "C1_b": 51,
+            "C2_a": 1029, "C2_b": 64,
+            "C4_a": 216, "C4_b": 6,
+            "C5_a": 22, "C5_b": 1,
+            "C8_a": 1, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 22
+        },
+
+        # Page 94: 고운동제2투
+        {
+            "page": 94,
+            "voting_location": "고운동제2투",
+            "type": "Goun-dong Precinct 2",
+            "C1_a": 1426, "C1_b": 11,
+            "C2_a": 1155, "C2_b": 19,
+            "C4_a": 275, "C4_b": 5,
+            "C5_a": 20, "C5_b": 1,
+            "C8_a": 3, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 22
+        },
+
+        # Page 95: 고운동제3투
+        {
+            "page": 95,
+            "voting_location": "고운동제3투",
+            "type": "Goun-dong Precinct 3",
+            "C1_a": 686, "C1_b": 9,
+            "C2_a": 597, "C2_b": 45,
+            "C4_a": 108, "C4_b": 3,
+            "C5_a": 14, "C5_b": 0,
+            "C8_a": 1, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 8
+        },
+
+        # Page 96: 고운동제4투
+        {
+            "page": 96,
+            "voting_location": "고운동제4투",
+            "type": "Goun-dong Precinct 4",
+            "C1_a": 1131, "C1_b": 11,
+            "C2_a": 794, "C2_b": 14,
+            "C4_a": 178, "C4_b": 2,
+            "C5_a": 32, "C5_b": 1,
+            "C8_a": 0, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 10
+        },
+
+        # Page 97: 고운동제5투
+        {
+            "page": 97,
+            "voting_location": "고운동제5투",
+            "type": "Goun-dong Precinct 5",
+            "C1_a": 862, "C1_b": 17,
+            "C2_a": 782, "C2_b": 11,
+            "C4_a": 137, "C4_b": 2,
+            "C5_a": 19, "C5_b": 0,
+            "C8_a": 0, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 10
+        },
+
+        # Page 98: 보람동제1투
+        {
+            "page": 98,
+            "voting_location": "보람동제1투",
+            "type": "Boram-dong Precinct 1",
+            "C1_a": 1095, "C1_b": 14,
+            "C2_a": 877, "C2_b": 10,
+            "C4_a": 172, "C4_b": 3,
+            "C5_a": 18, "C5_b": 0,
+            "C8_a": 1, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 10
+        },
+
+        # Page 99: 보람동제2투
+        {
+            "page": 99,
+            "voting_location": "보람동제2투",
+            "type": "Boram-dong Precinct 2",
+            "C1_a": 713, "C1_b": 4,
+            "C2_a": 753, "C2_b": 10,
+            "C4_a": 148, "C4_b": 2,
+            "C5_a": 10, "C5_b": 1,
+            "C8_a": 0, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 9
+        },
+
+        # Page 100: 보람동제3투
+        {
+            "page": 100,
+            "voting_location": "보람동제3투",
+            "type": "Boram-dong Precinct 3",
+            "C1_a": 879, "C1_b": 48,
+            "C2_a": 943, "C2_b": 42,
+            "C4_a": 237, "C4_b": 2,
+            "C5_a": 31, "C5_b": 0,
+            "C8_a": 5, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 19
+        },
+
+        # Page 101: 새롬동제1투
+        {
+            "page": 101,
+            "voting_location": "새롬동제1투",
+            "type": "Saerom-dong Precinct 1",
+            "C1_a": 532, "C1_b": 8,
+            "C2_a": 623, "C2_b": 7,
+            "C4_a": 149, "C4_b": 1,
+            "C5_a": 17, "C5_b": 0,
+            "C8_a": 0, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 8
+        },
+
+        # Page 102: 새롬동제2투
+        {
+            "page": 102,
+            "voting_location": "새롬동제2투",
+            "type": "Saerom-dong Precinct 2",
+            "C1_a": 1005, "C1_b": 8,
+            "C2_a": 950, "C2_b": 12,
+            "C4_a": 222, "C4_b": 3,
+            "C5_a": 18, "C5_b": 0,
+            "C8_a": 2, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 12
+        },
+
+        # Page 103: 새롬동제3투
+        {
+            "page": 103,
+            "voting_location": "새롬동제3투",
+            "type": "Saerom-dong Precinct 3",
+            "C1_a": 1100, "C1_b": 17,
+            "C2_a": 907, "C2_b": 15,
+            "C4_a": 191, "C4_b": 1,
+            "C5_a": 31, "C5_b": 0,
+            "C8_a": 3, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 17
+        },
+
+        # Page 104: 새롬동제4투
+        {
+            "page": 104,
+            "voting_location": "새롬동제4투",
+            "type": "Saerom-dong Precinct 4",
+            "C1_a": 939, "C1_b": 9,
+            "C2_a": 821, "C2_b": 6,
+            "C4_a": 205, "C4_b": 1,
+            "C5_a": 37, "C5_b": 0,
+            "C8_a": 4, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 17
+        },
+
+        # Page 105: 대평동제1투
+        {
+            "page": 105,
+            "voting_location": "대평동제1투",
+            "type": "Daepyeong-dong Precinct 1",
+            "C1_a": 740, "C1_b": 7,
+            "C2_a": 797, "C2_b": 11,
+            "C4_a": 182, "C4_b": 5,
+            "C5_a": 17, "C5_b": 0,
+            "C8_a": 2, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 12
+        },
+
+        # Page 106: 대평동제2투
+        {
+            "page": 106,
+            "voting_location": "대평동제2투",
+            "type": "Daepyeong-dong Precinct 2",
+            "C1_a": 691, "C1_b": 14,
+            "C2_a": 775, "C2_b": 10,
+            "C4_a": 150, "C4_b": 2,
+            "C5_a": 15, "C5_b": 0,
+            "C8_a": 1, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 14
+        },
+
+        # Page 107: 소담동제1투
+        {
+            "page": 107,
+            "voting_location": "소담동제1투",
+            "type": "Sodam-dong Precinct 1",
+            "C1_a": 735, "C1_b": 6,
+            "C2_a": 640, "C2_b": 10,
+            "C4_a": 134, "C4_b": 9,
+            "C5_a": 20, "C5_b": 1,
+            "C8_a": 2, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 13
+        },
+
+        # Page 108: 소담동제2투
+        {
+            "page": 108,
+            "voting_location": "소담동제2투",
+            "type": "Sodam-dong Precinct 2",
+            "C1_a": 855, "C1_b": 2,
+            "C2_a": 730, "C2_b": 7,
+            "C4_a": 186, "C4_b": 1,
+            "C5_a": 18, "C5_b": 2,
+            "C8_a": 0, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 7
+        },
+
+        # Page 109: 소담동제3투
+        {
+            "page": 109,
+            "voting_location": "소담동제3투",
+            "type": "Sodam-dong Precinct 3",
+            "C1_a": 736, "C1_b": 3,
+            "C2_a": 698, "C2_b": 10,
+            "C4_a": 178, "C4_b": 1,
+            "C5_a": 17, "C5_b": 0,
+            "C8_a": 1, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 12
+        },
+
+        # Page 110: 소담동제4투
+        {
+            "page": 110,
+            "voting_location": "소담동제4투",
+            "type": "Sodam-dong Precinct 4",
+            "C1_a": 634, "C1_b": 3,
+            "C2_a": 667, "C2_b": 8,
+            "C4_a": 144, "C4_b": 1,
+            "C5_a": 21, "C5_b": 0,
+            "C8_a": 1, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 12
+        },
+
+        # Page 111: 단찬동제1투
+        {
+            "page": 111,
+            "voting_location": "단찬동제1투",
+            "type": "Danchan-dong Precinct 1",
+            "C1_a": 1058, "C1_b": 17,
+            "C2_a": 868, "C2_b": 11,
+            "C4_a": 232, "C4_b": 4,
+            "C5_a": 40, "C5_b": 1,
+            "C8_a": 1, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 22
+        },
+
+        # Page 112: 단찬동제2투
+        {
+            "page": 112,
+            "voting_location": "단찬동제2투",
+            "type": "Danchan-dong Precinct 2",
+            "C1_a": 816, "C1_b": 6,
+            "C2_a": 806, "C2_b": 8,
+            "C4_a": 206, "C4_b": 4,
+            "C5_a": 30, "C5_b": 2,
+            "C8_a": 2, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 15
+        },
+
+        # Page 113: 단찬동제3투
+        {
+            "page": 113,
+            "voting_location": "단찬동제3투",
+            "type": "Danchan-dong Precinct 3",
+            "C1_a": 1123, "C1_b": 9,
+            "C2_a": 1033, "C2_b": 9,
+            "C4_a": 227, "C4_b": 5,
+            "C5_a": 27, "C5_b": 1,
+            "C8_a": 2, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 10
+        },
+
+        # Page 114: 단찬동제4투
+        {
+            "page": 114,
+            "voting_location": "단찬동제4투",
+            "type": "Danchan-dong Precinct 4",
+            "C1_a": 748, "C1_b": 12,
+            "C2_a": 912, "C2_b": 15,
+            "C4_a": 181, "C4_b": 2,
+            "C5_a": 22, "C5_b": 0,
+            "C8_a": 1, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 14
+        },
+
+        # Page 115: 행복동제1투
+        {
+            "page": 115,
+            "voting_location": "행복동제1투",
+            "type": "Haengbok-dong Precinct 1",
+            "C1_a": 1279, "C1_b": 27,
+            "C2_a": 971, "C2_b": 13,
+            "C4_a": 284, "C4_b": 4,
+            "C5_a": 45, "C5_b": 6,
+            "C8_a": 3, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 21
+        },
+
+        # Page 116: 행복동제2투
+        {
+            "page": 116,
+            "voting_location": "행복동제2투",
+            "type": "Haengbok-dong Precinct 2",
+            "C1_a": 1179, "C1_b": 25,
+            "C2_a": 748, "C2_b": 22,
+            "C4_a": 222, "C4_b": 4,
+            "C5_a": 26, "C5_b": 0,
+            "C8_a": 2, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 11
+        },
+
+        # Page 117: 행복동제3투
+        {
+            "page": 117,
+            "voting_location": "행복동제3투",
+            "type": "Haengbok-dong Precinct 3",
+            "C1_a": 973, "C1_b": 10,
+            "C2_a": 648, "C2_b": 22,
+            "C4_a": 218, "C4_b": 2,
+            "C5_a": 26, "C5_b": 1,
+            "C8_a": 2, "C8_b": 1,
+            "invalid_a": 0, "invalid_b": 9
+        },
+
+        # Page 118: 반곡동제1투
+        {
+            "page": 118,
+            "voting_location": "반곡동제1투",
+            "type": "Bangok-dong Precinct 1",
+            "C1_a": 1126, "C1_b": 7,
+            "C2_a": 927, "C2_b": 6,
+            "C4_a": 253, "C4_b": 3,
+            "C5_a": 39, "C5_b": 0,
+            "C8_a": 1, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 24
+        },
+
+        # Page 119: 반곡동제2투
+        {
+            "page": 119,
+            "voting_location": "반곡동제2투",
+            "type": "Bangok-dong Precinct 2",
+            "C1_a": 825, "C1_b": 5,
+            "C2_a": 819, "C2_b": 2,
+            "C4_a": 252, "C4_b": 2,
+            "C5_a": 30, "C5_b": 1,
+            "C8_a": 1, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 24
+        },
+
+        # Page 120: 반곡동제3투
+        {
+            "page": 120,
+            "voting_location": "반곡동제3투",
+            "type": "Bangok-dong Precinct 3",
+            "C1_a": 1257, "C1_b": 9,
+            "C2_a": 755, "C2_b": 8,
+            "C4_a": 252, "C4_b": 5,
+            "C5_a": 24, "C5_b": 1,
+            "C8_a": 2, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 13
+        },
+
+        # Page 121: 반곡동제4투
+        {
+            "page": 121,
+            "voting_location": "반곡동제4투",
+            "type": "Bangok-dong Precinct 4",
+            "C1_a": 1046, "C1_b": 22,
+            "C2_a": 763, "C2_b": 15,
+            "C4_a": 313, "C4_b": 6,
+            "C5_a": 39, "C5_b": 0,
+            "C8_a": 5, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 17
+        },
+
+        # Page 122: 아진동제1투
+        {
+            "page": 122,
+            "voting_location": "아진동제1투",
+            "type": "Ajin-dong Precinct 1",
+            "C1_a": 662, "C1_b": 0,
+            "C2_a": 617, "C2_b": 3,
+            "C4_a": 178, "C4_b": 1,
+            "C5_a": 46, "C5_b": 1,
+            "C8_a": 1, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 19
+        },
+
+        # Page 123: 아진동제2투
+        {
+            "page": 123,
+            "voting_location": "아진동제2투",
+            "type": "Ajin-dong Precinct 2",
+            "C1_a": 834, "C1_b": 11,
+            "C2_a": 772, "C2_b": 11,
+            "C4_a": 252, "C4_b": 8,
+            "C5_a": 37, "C5_b": 12,
+            "C8_a": 0, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 17
+        },
+
+        # Page 124: 나성동제1투
+        {
+            "page": 124,
+            "voting_location": "나성동제1투",
+            "type": "Naseong-dong Precinct 1",
+            "C1_a": 819, "C1_b": 12,
+            "C2_a": 768, "C2_b": 11,
+            "C4_a": 220, "C4_b": 6,
+            "C5_a": 24, "C5_b": 0,
+            "C8_a": 1, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 14
+        },
+
+        # Page 125: 나성동제2투
+        {
+            "page": 125,
+            "voting_location": "나성동제2투",
+            "type": "Naseong-dong Precinct 2",
+            "C1_a": 777, "C1_b": 6,
+            "C2_a": 702, "C2_b": 4,
+            "C4_a": 192, "C4_b": 1,
+            "C5_a": 32, "C5_b": 0,
+            "C8_a": 3, "C8_b": 0,
+            "invalid_a": 0, "invalid_b": 6
+        },
+
+        # Page 126: Summary page - skip (최종 합계 페이지)
 
     ]
 
