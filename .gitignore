@@ -4,3 +4,7 @@ ocr_results/
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# Test and temporary directories
+test_mp/
+patches/
