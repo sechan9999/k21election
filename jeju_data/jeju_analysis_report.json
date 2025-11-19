@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "generated_at": "2025-11-19T02:55:52.726601",
+    "source_file": "/home/user/k21election/jeju_data/complete_jeju_voting_location_details.csv",
+    "analysis_version": "1.0"
+  },
+  "summary_statistics": {
+    "total_pages": 3,
+    "total_eligible_voters": 13345,
+    "total_ballots": 13345,
+    "total_valid_votes": 13013,
+    "total_invalid_votes": 332,
+    "turnout_rate": 100.0,
+    "valid_vote_rate": 97.51,
+    "vote_types": {
+      "선거일투표": {
+        "count": 3,
+        "total_votes": 13013
+      }
+    },
+    "total_candidate_votes": 13073
+  },
+  "candidate_results": [
+    {
+      "candidate_number": 1,
+      "name": "이재명",
+      "party": "더불어민주당",
+      "total_votes": 8893,
+      "vote_percentage": 68.03
+    },
+    {
+      "candidate_number": 2,
+      "name": "김문수",
+      "party": "국민의힘",
+      "total_votes": 3002,
+      "vote_percentage": 22.96
+    },
+    {
+      "candidate_number": 4,
+      "name": "이준석",
+      "party": "개혁신당",
+      "total_votes": 975,
+      "vote_percentage": 7.46
+    },
+    {
+      "candidate_number": 5,
+      "name": "권영국",
+      "party": "민주노동당",
+      "total_votes": 187,
+      "vote_percentage": 1.43
+    },
+    {
+      "candidate_number": 8,
+      "name": "송진호",
+      "party": "무소속",
+      "total_votes": 16,
+      "vote_percentage": 0.12
+    }
+  ]
+}
