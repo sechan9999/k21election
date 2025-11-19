@@ -4,3 +4,8 @@ ocr_results/
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# Page images (too large for git)
+sejong_pages/
+jeju_pages/
+sejong_pages_test/
