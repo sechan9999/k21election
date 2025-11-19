@@ -1,0 +1,21 @@
+{
+  "sejong": {
+    "total_pages": 126,
+    "avg_page_size_kb": 283.5177253844246,
+    "total_size_mb": 34.88597011566162,
+    "min_page_size_kb": 184.712890625,
+    "max_page_size_kb": 302.197265625
+  },
+  "jeju": {
+    "total_pages": 172,
+    "avg_page_size_kb": 406.51724314135174,
+    "total_size_mb": 68.28219318389893,
+    "min_page_size_kb": 230.115234375,
+    "max_page_size_kb": 469.068359375
+  },
+  "comparison": {
+    "page_difference": 46,
+    "page_ratio": 1.3650793650793651,
+    "size_ratio": 1.957296671341368
+  }
+}
