@@ -1,0 +1,4 @@
+﻿page_number,ballot_box_id,vote_type,eligible_voters,total_ballots,valid_votes,invalid_votes,이재명_득표,김문수_득표,이준석_득표,권영국_득표,송진호_득표,extraction_method
+1,이종천4,선거일투표,5415,5415,5270,145,3571,1224,460,72,3,manual_from_image
+2,이종천4,선거일투표,4972,4972,4838,134,3432,1002,334,62,8,manual_from_image
+3,이종천4,선거일투표,2958,2958,2905,53,1890,776,181,53,5,manual_from_image
