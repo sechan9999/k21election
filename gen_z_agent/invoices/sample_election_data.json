@@ -1,0 +1,83 @@
+{
+  "document_type": "election_ballot_box_results",
+  "election_name": "제21대 대통령선거",
+  "location": {
+    "city": "세종특별자치시",
+    "district": "아름동",
+    "polling_station": "제1투표소"
+  },
+  "vote_type": "관외사전투표",
+  "ballot_box_info": {
+    "issued_ballots": 1234,
+    "machine_classified_valid": 1198,
+    "machine_classified_invalid": 31,
+    "human_verified_valid_a": 1195,
+    "human_verified_valid_b": 3,
+    "discrepancy": 0
+  },
+  "candidates": [
+    {
+      "number": 1,
+      "name": "이재명",
+      "party": "더불어민주당",
+      "machine_votes_2": 845,
+      "machine_votes_3": 0,
+      "human_verified_a": 843,
+      "human_verified_b": 2,
+      "total_votes": 845
+    },
+    {
+      "number": 2,
+      "name": "김문수",
+      "party": "국민의힘",
+      "machine_votes_2": 298,
+      "machine_votes_3": 0,
+      "human_verified_a": 297,
+      "human_verified_b": 1,
+      "total_votes": 298
+    },
+    {
+      "number": 4,
+      "name": "이준석",
+      "party": "개혁신당",
+      "machine_votes_2": 45,
+      "machine_votes_3": 0,
+      "human_verified_a": 45,
+      "human_verified_b": 0,
+      "total_votes": 45
+    },
+    {
+      "number": 5,
+      "name": "권영국",
+      "party": "민주노동당",
+      "machine_votes_2": 8,
+      "machine_votes_3": 0,
+      "human_verified_a": 8,
+      "human_verified_b": 0,
+      "total_votes": 8
+    },
+    {
+      "number": 8,
+      "name": "송진호",
+      "party": "무소속",
+      "machine_votes_2": 2,
+      "machine_votes_3": 0,
+      "human_verified_a": 2,
+      "human_verified_b": 0,
+      "total_votes": 2
+    }
+  ],
+  "verification": {
+    "verified_by": "개표관리위원회",
+    "verification_date": "2025-01-15",
+    "signatures_count": 8,
+    "status": "approved"
+  },
+  "metadata": {
+    "page_number": 2,
+    "total_pages": 126,
+    "extraction_date": "2025-11-20",
+    "extraction_method": "automated_ocr",
+    "confidence_score": 0.98
+  }
+}
